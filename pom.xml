@@ -28,5 +28,20 @@
             <artifactId>netty-all</artifactId>
             <version>4.1.30.Final</version>
         </dependency>
+
+
+        <!-- https://mvnrepository.com/artifact/com.google.protobuf/protobuf-java-util -->
+        <dependency>
+            <groupId>com.google.protobuf</groupId>
+            <artifactId>protobuf-java-util</artifactId>
+            <version>3.7.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.grpc</groupId>
+            <artifactId>grpc-protobuf</artifactId>
+            <version>1.20.0</version>
+        </dependency>
+
     </dependencies>
 </project>
